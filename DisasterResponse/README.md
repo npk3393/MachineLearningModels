@@ -1,7 +1,13 @@
 # Disaster Response Pipeline Project
 
+### Motivation:
+
+This project seeks to train a multi class classifier using Random Forest to identify an incoming emergency text, parse it to identify the category (nature of) the emergency.
+
+This data science project uses python flask framework as a front end, leverages on SQLite to create relational database to store the text output, and utilizes scikit learn's Random Forest along with Grid Search to fine tune the hyper parameters for the model.
+
+
 ### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
@@ -14,5 +20,3 @@ ls
 
 3. Go to http://0.0.0.0:3001/
 
-python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisRep.db
-python models/train_classifier.py data/DisRep.db models/classifier.pkl
