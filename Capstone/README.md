@@ -40,6 +40,30 @@ Machine Learning Modeling
 
 Conclusion Remarks
 
+## Summary of Results
+
+We used an initial base modeling and then implemented pipelines and hyperparameter tuning for both logit and decision tree models.
+Both yielded the following scores:
+
+The base logit model has an accuracy of 0.7846153846153846 and F1-score of 0.7659763313609467 where as the base decision tree model has an accuracy of 0.8307692307692308 and F1-score of 0.8324610097805973. 
+
+My initial reaction was, this was probably due to model over fitting as no hyperparameter were tuned.
+
+I tuned the regularization parameter for the logit model and maxDepth of trees for decision tree parameter and this yielded the following results.
+
+The tuned logit model has an accuracy of ... and F1-score of ... where as the tuned decision tree model has an accuracy of ... and F1-score of ...
+
+I attribute these metrics to the quality of features being engineered and thorough data cleansing process
+
+## File Descriptions
+
+The folder contains IPython notebooks Sparkify-Copy1.ipynb and Sparkify-Copy2.ipynb are 1st and 2nd versions respectively
+
+## Necessary Acknowledgements
+
+I would like to acknowledge Stackoverflow, Geeks for Geeks, Python documentation and various other google search results to help me understand various functions, and options exist within PySpark 
+
+
 ## Remarks
 
 The code uses both Spark Data Frames and Spark SQL for exploratory data analysis and other purposes.
