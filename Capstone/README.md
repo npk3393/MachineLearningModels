@@ -51,7 +51,7 @@ My initial reaction was, this was probably due to model over fitting as no hyper
 
 I tuned the regularization parameter for the logit model and maxDepth of trees for decision tree parameter and this yielded the following results.
 
-The tuned logit model has an accuracy of ... and F1-score of ... where as the tuned decision tree model has an accuracy of ... and F1-score of ...
+The tuned logit model has an accuracy of 0.8688524590163934 and F1-score of 0.8642026825633384 where as the tuned decision tree model has an accuracy of 0.8032786885245902 and F1-score of 0.7761664564943254
 
 I attribute these metrics to the quality of features being engineered and thorough data cleansing process
 
