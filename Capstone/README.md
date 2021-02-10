@@ -1,6 +1,6 @@
 # Data Scientist Capstone Project
 
-## Sparkly
+## Sparkify
 
 This capstone project is part of requirements of the Udacity data scientist nano degree
 
