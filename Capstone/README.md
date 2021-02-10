@@ -14,6 +14,12 @@ I have utilized F1 score and accuracy metric to understand the model and evaluat
 
 ## Technical Environment
 
+- Apache Spark 2.4.1
+- Apache Hadoop 2.7
+- Amazon S3 Storage
+- Amazon Elastic Map Reduce Cluster
+- PySpark 2.1.0
+
 The project uses apache spark that sits on top of apache Hadoop. Data is stored in Amazon S3 that is being called from the script. We use PySpark to perform analysis and analysis an API that is available to us to utilize spark functions.
 
 ## Python Packages
@@ -28,17 +34,17 @@ Logistic Regression, Decision Tree Classifier
 
 The notebook contains executable scripts and transferable python code that performs:
 
-Exploratory Data Analysis
+- Exploratory Data Analysis
 
-Univariate and Bi-variate Data Visualizations
+- Univariate and Bi-variate Data Visualizations
 
-Data Cleaning and Transformation
+- Data Cleaning and Transformation
 
-Feature Engineering for Predictive Modeling
+- Feature Engineering for Predictive Modeling
 
-Machine Learning Modeling
+- Machine Learning Modeling
 
-Conclusion Remarks
+- Conclusion Remarks
 
 ## Summary of Results
 
