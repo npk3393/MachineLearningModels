@@ -1,3 +1,3 @@
-# DataSciNano
+# Machine Learning and Data Science Projects Repo
  
-Project submissions towards Udacity's data science nano degree program
+Scalable machine learning models in Python and AWS ecosystem
